@@ -1,0 +1,1 @@
+--style=allman --break-blocks --pad-oper --align-pointer=type --align-reference=type --max-code-length=200 --max-instatement-indent=120 --min-conditional-indent=0

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Created 2014-10-17T15:36:51-->
+<beautifier_documentation>
+    <entry>
+        <keys>
+            <key>--style=allman</key>
+            <key>style=allman</key>
+            <key>--style=ansi</key>
+            <key>style=ansi</key>
+            <key>--style=bsd</key>
+            <key>style=bsd</key>
+            <key>OR  --style=break</key>
+            <key>-A1</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=allman, --style=ansi, --style=bsd, -A1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Allman style formatting/indenting. Broken brackets.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=java</key>
+            <key>style=java</key>
+            <key>--style=attach</key>
+            <key>style=attach</key>
+            <key>-A2</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=java, --style=attach, -A2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Java style formatting/indenting. Attached brackets.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=kr</key>
+            <key>style=kr</key>
+            <key>--style=k&amp;r</key>
+            <key>style=k&amp;r</key>
+            <key>--style=k/r</key>
+            <key>style=k/r</key>
+            <key>-A3</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=kr, --style=k&amp;r, --style=k/r, -A3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Kernighan &amp;amp; Ritchie style formatting/indenting. Linux brackets.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=stroustrup</key>
+            <key>style=stroustrup</key>
+            <key>-A4</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=stroustrup, -A4&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Stroustrup style formatting/indenting. Stroustrup brackets.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=whitesmith</key>
+            <key>style=whitesmith</key>
+            <key>-A5</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=whitesmith, -A5&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Whitesmith style formatting/indenting. Broken, indented brackets. Indented class blocks and switch blocks.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=banner</key>
+            <key>style=banner</key>
+            <key>-A6</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=banner, -A6&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Banner style formatting/indenting. Attached, indented brackets. Indented class blocks and switch blocks.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=gnu</key>
+            <key>style=gnu</key>
+            <key>-A7</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=gnu, -A7&lt;/span&gt;&lt;/p&gt;&lt;p&gt;GNU style formatting/indenting. Broken brackets, indented blocks.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=linux</key>
+            <key>style=linux</key>
+            <key>--style=knf</key>
+            <key>style=knf</key>
+            <key>-A8</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=linux, --style=knf, -A8&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Linux style formatting/indenting. Linux brackets, minimum conditional indent is one-half indent.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=horstmann</key>
+            <key>style=horstmann</key>
+            <key>-A9</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=horstmann, -A9&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Horstmann style formatting/indenting. Run-in brackets, indented switches.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=1tbs</key>
+            <key>style=1tbs</key>
+            <key>--style=otbs</key>
+            <key>style=otbs</key>
+            <key>-A10</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=1tbs, --style=otbs, -A10&lt;/span&gt;&lt;/p&gt;&lt;p&gt;One True Brace Style formatting/indenting. Linux brackets, add brackets to all conditionals.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=google</key>
+            <key>style=google</key>
+            <key>-A14</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=google, -A14&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Google style formatting/indenting. Attached brackets, indented class modifiers.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=pico</key>
+            <key>style=pico</key>
+            <key>-A11</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=pico, -A11&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Pico style formatting/indenting. Run-in opening brackets and attached closing brackets. Uses keep one line blocks and keep one line statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--style=lisp</key>
+            <key>style=lisp</key>
+            <key>-A12</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--style=lisp, -A12&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Lisp style formatting/indenting. Attached opening brackets and attached closing brackets. Uses keep one line statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent=spaces=</key>
+            <key>indent=spaces=</key>
+            <key>-s</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent=spaces=, -s&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent using # spaces per indent. Not specifying # will result in a default of 4 spaces per indent.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent=tab</key>
+            <key>indent=tab</key>
+            <key>--indent=tab=</key>
+            <key>indent=tab=</key>
+            <key>-t</key>
+            <key>-t</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent=tab, --indent=tab=, -t, -t&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent using tab characters, assuming that each indent is # spaces long. Not specifying # will result in a default assumption of 4 spaces per indent.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent=force-tab=</key>
+            <key>indent=force-tab=</key>
+            <key>-T</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent=force-tab=, -T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent using tab characters, assuming that each indent is # spaces long. Force tabs to be used in areas AStyle would prefer to use spaces.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent=force-tab-x=</key>
+            <key>indent=force-tab-x=</key>
+            <key>-xT</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent=force-tab-x=, -xT&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Allows the tab length to be set to a length that is different from the indent length. This may cause the indentation to be a mix of both spaces and tabs. This option sets the tab length.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--attach-namespaces</key>
+            <key>attach-namespaces</key>
+            <key>-xn</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--attach-namespaces, -xn&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach brackets to a namespace statement.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--attach-classes</key>
+            <key>attach-classes</key>
+            <key>-xc</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--attach-classes, -xc&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach brackets to a class statement.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--attach-inlines</key>
+            <key>attach-inlines</key>
+            <key>-xl</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--attach-inlines, -xl&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach brackets to class inline function definitions.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--attach-extern-c</key>
+            <key>attach-extern-c</key>
+            <key>-xk</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--attach-extern-c, -xk&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach brackets to an extern &amp;quot;C&amp;quot; statement.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-classes</key>
+            <key>indent-classes</key>
+            <key>-C</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-classes, -C&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent 'class' blocks so that the entire block is indented.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-modifiers</key>
+            <key>indent-modifiers</key>
+            <key>-xG</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-modifiers, -xG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent 'class' access modifiers, 'public:', 'protected:' or 'private:', one half indent. The rest of the class is not indented.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-switches</key>
+            <key>indent-switches</key>
+            <key>-S</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-switches, -S&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent 'switch' blocks, so that the inner 'case XXX:' headers are indented in relation to the switch block.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-cases</key>
+            <key>indent-cases</key>
+            <key>-K</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-cases, -K&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent case blocks from the 'case XXX:' headers. Case statements not enclosed in blocks are NOT indented.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-namespaces</key>
+            <key>indent-namespaces</key>
+            <key>-N</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-namespaces, -N&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent the contents of namespace blocks.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-labels</key>
+            <key>indent-labels</key>
+            <key>-L</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-labels, -L&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent labels so that they appear one indent less than the current indentation level, rather than being flushed completely to the left (which is the default).&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-preproc-define</key>
+            <key>indent-preproc-define</key>
+            <key>-w</key>
+            <key>--indent-preprocessor has been depreciated.</key>
+            <key>indent-preprocessor has been depreciated.</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-preproc-define, -w, --indent-preprocessor has been depreciated.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent multi-line preprocessor #define statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-preproc-cond</key>
+            <key>indent-preproc-cond</key>
+            <key>-xw</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-preproc-cond, -xw&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent preprocessor conditional statements #if/#else/#endif to the same level as the source code.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--indent-col1-comments</key>
+            <key>indent-col1-comments</key>
+            <key>-Y</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--indent-col1-comments, -Y&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent line comments that start in column one.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--min-conditional-indent=</key>
+            <key>min-conditional-indent=</key>
+            <key>-m</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--min-conditional-indent=, -m&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent a minimal # spaces in a continuous conditional belonging to a conditional header. The valid values are: 0 - no minimal indent. 1 - indent at least one additional indent. 2 - indent at least two additional indents. 3 - indent at least one-half an additional indent. The default value is 2, two additional indents.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--max-instatement-indent=</key>
+            <key>max-instatement-indent=</key>
+            <key>-M</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--max-instatement-indent=, -M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent a maximal # spaces in a continuous statement, relative to the previous line. The valid values are 40 thru 120. The default value is 40.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--break-blocks</key>
+            <key>break-blocks</key>
+            <key>-f</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--break-blocks, -f&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert empty lines around unrelated blocks, labels, classes, ...&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--break-blocks=all</key>
+            <key>break-blocks=all</key>
+            <key>-F</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--break-blocks=all, -F&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Like --break-blocks, except also insert empty lines around closing headers (e.g. 'else', 'catch', ...).&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-oper</key>
+            <key>pad-oper</key>
+            <key>-p</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-oper, -p&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding around operators.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-paren</key>
+            <key>pad-paren</key>
+            <key>-P</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-paren, -P&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding around parenthesis on both the outside and the inside.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-paren-out</key>
+            <key>pad-paren-out</key>
+            <key>-d</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-paren-out, -d&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding around parenthesis on the outside only.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-first-paren-out</key>
+            <key>pad-first-paren-out</key>
+            <key>-xd</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-first-paren-out, -xd&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding around first parenthesis in a series on the outside only.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-paren-in</key>
+            <key>pad-paren-in</key>
+            <key>-D</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-paren-in, -D&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding around parenthesis on the inside only.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-header</key>
+            <key>pad-header</key>
+            <key>-H</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-header, -H&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding after paren headers (e.g. 'if', 'for'...).&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--unpad-paren</key>
+            <key>unpad-paren</key>
+            <key>-U</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--unpad-paren, -U&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Remove unnecessary space padding around parenthesis. This can be used in combination with the 'pad' options above.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--delete-empty-lines</key>
+            <key>delete-empty-lines</key>
+            <key>-xd</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--delete-empty-lines, -xd&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Delete empty lines within a function or method. It will NOT delete lines added by the break-blocks options.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--fill-empty-lines</key>
+            <key>fill-empty-lines</key>
+            <key>-E</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--fill-empty-lines, -E&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Fill empty lines with the white space of their previous lines.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--align-pointer=type</key>
+            <key>align-pointer=type</key>
+            <key>-k1</key>
+            <key>--align-pointer=middle</key>
+            <key>align-pointer=middle</key>
+            <key>-k2</key>
+            <key>--align-pointer=name</key>
+            <key>align-pointer=name</key>
+            <key>-k3</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--align-pointer=type, -k1, --align-pointer=middle, -k2, --align-pointer=name, -k3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach a pointer or reference operator (*, &amp;amp;, or ^) to either the operator type (left), middle, or operator name (right). To align the reference separately use --align-reference.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--align-reference=none</key>
+            <key>align-reference=none</key>
+            <key>-W0</key>
+            <key>--align-reference=type</key>
+            <key>align-reference=type</key>
+            <key>-W1</key>
+            <key>--align-reference=middle</key>
+            <key>align-reference=middle</key>
+            <key>-W2</key>
+            <key>--align-reference=name</key>
+            <key>align-reference=name</key>
+            <key>-W3</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--align-reference=none, -W0, --align-reference=type, -W1, --align-reference=middle, -W2, --align-reference=name, -W3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Attach a reference operator (&amp;amp;) to either the operator type (left), middle, or operator name (right). If not set, follow pointer alignment.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--break-closing-brackets</key>
+            <key>break-closing-brackets</key>
+            <key>-y</key>
+            <key>--style=linux, or --style=1tbs.</key>
+            <key>style=linux, or --style=1tbs.</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--break-closing-brackets, -y, --style=linux, or --style=1tbs.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Break brackets before closing headers (e.g. 'else', 'catch', ...). Use with --style=java, --style=kr, --style=stroustrup,&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--break-elseifs</key>
+            <key>break-elseifs</key>
+            <key>-e</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--break-elseifs, -e&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Break 'else if()' statements into two different lines.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--add-brackets</key>
+            <key>add-brackets</key>
+            <key>-j</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--add-brackets, -j&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Add brackets to unbracketed one line conditional statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--add-one-line-brackets</key>
+            <key>add-one-line-brackets</key>
+            <key>-J</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--add-one-line-brackets, -J&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Add one line brackets to unbracketed one line conditional statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--remove-brackets</key>
+            <key>remove-brackets</key>
+            <key>-xj</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--remove-brackets, -xj&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Remove brackets from a bracketed one line conditional statements.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--keep-one-line-blocks</key>
+            <key>keep-one-line-blocks</key>
+            <key>-O</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--keep-one-line-blocks, -O&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Don't break blocks residing completely on one line.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--keep-one-line-statements</key>
+            <key>keep-one-line-statements</key>
+            <key>-o</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--keep-one-line-statements, -o&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Don't break lines containing multiple statements into multiple single-statement lines.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--convert-tabs</key>
+            <key>convert-tabs</key>
+            <key>-c</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--convert-tabs, -c&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Convert tabs to the appropriate number of spaces.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--close-templates</key>
+            <key>close-templates</key>
+            <key>-xy</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--close-templates, -xy&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Close ending angle brackets on template definitions.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--remove-comment-prefix</key>
+            <key>remove-comment-prefix</key>
+            <key>-xp</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--remove-comment-prefix, -xp&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Remove the leading '*' prefix on multi-line comments and indent the comment text one indent.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--max-code-length=</key>
+            <key>max-code-length=</key>
+            <key>-xC</key>
+            <key>--break-after-logical</key>
+            <key>break-after-logical</key>
+            <key>-xL</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--max-code-length=, -xC, --break-after-logical, -xL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;max-code-length=# will break the line if it exceeds more than # characters. The valid values are 50 thru 200. If the line contains logical conditionals they will be placed first on the new line. The option break-after-logical will cause the logical conditional to be placed last on the previous line.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--mode=c</key>
+            <key>mode=c</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--mode=c&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent a C or C++ source file (this is the default).&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--mode=java</key>
+            <key>mode=java</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--mode=java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent a Java source file.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--mode=cs</key>
+            <key>mode=cs</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--mode=cs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Indent a C# source file.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--align-method-colon</key>
+            <key>align-method-colon</key>
+            <key>-xM</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--align-method-colon, -xM&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Align the colons in an Objective-C method definition.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-method-prefix</key>
+            <key>pad-method-prefix</key>
+            <key>-xQ</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-method-prefix, -xQ&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Insert space padding after the '-' or '+' Objective-C method prefix.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--unpad-method-prefix</key>
+            <key>unpad-method-prefix</key>
+            <key>-xR</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--unpad-method-prefix, -xR&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Remove all space padding after the '-' or '+' Objective-C method prefix.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--pad-method-colon=none</key>
+            <key>pad-method-colon=none</key>
+            <key>-xP</key>
+            <key>--pad-method-colon=all</key>
+            <key>pad-method-colon=all</key>
+            <key>-xP1</key>
+            <key>--pad-method-colon=after</key>
+            <key>pad-method-colon=after</key>
+            <key>-xP2</key>
+            <key>--pad-method-colon=before</key>
+            <key>pad-method-colon=before</key>
+            <key>-xP3</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--pad-method-colon=none, -xP, --pad-method-colon=all, -xP1, --pad-method-colon=after, -xP2, --pad-method-colon=before, -xP3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Add or remove space padding before or after the colons in an Objective-C method call.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--suffix=</key>
+            <key>suffix=</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--suffix=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Append the suffix #### instead of '.orig' to original filename.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--suffix=none</key>
+            <key>suffix=none</key>
+            <key>-n</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--suffix=none, -n&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Do not retain a backup of the original file.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--recursive</key>
+            <key>recursive</key>
+            <key>-r</key>
+            <key>-R</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--recursive, -r, -R&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Process subdirectories recursively.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--exclude=</key>
+            <key>exclude=</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--exclude=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Specify a file or directory #### to be excluded from processing.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--ignore-exclude-errors</key>
+            <key>ignore-exclude-errors</key>
+            <key>-i</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--ignore-exclude-errors, -i&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Allow processing to continue if there are errors in the exclude=### options. It will display the unmatched excludes.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--ignore-exclude-errors-x</key>
+            <key>ignore-exclude-errors-x</key>
+            <key>-xi</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--ignore-exclude-errors-x, -xi&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Allow processing to continue if there are errors in the exclude=### options. It will NOT display the unmatched excludes.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--errors-to-stdout</key>
+            <key>errors-to-stdout</key>
+            <key>-X</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--errors-to-stdout, -X&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Print errors and help information to standard-output rather than to standard-error.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--preserve-date</key>
+            <key>preserve-date</key>
+            <key>-Z</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--preserve-date, -Z&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Preserve the original file's date and time modified. The time modified will be changed a few micro seconds to force a compile.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--verbose</key>
+            <key>verbose</key>
+            <key>-v</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--verbose, -v&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Verbose mode. Extra informational messages will be displayed.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--formatted</key>
+            <key>formatted</key>
+            <key>-Q</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--formatted, -Q&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Formatted display mode. Display only the files that have been formatted.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--quiet</key>
+            <key>quiet</key>
+            <key>-q</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--quiet, -q&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Quiet mode. Suppress all output except error messages.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--lineend=windows</key>
+            <key>lineend=windows</key>
+            <key>-z1</key>
+            <key>--lineend=linux</key>
+            <key>lineend=linux</key>
+            <key>-z2</key>
+            <key>--lineend=macold</key>
+            <key>lineend=macold</key>
+            <key>-z3</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--lineend=windows, -z1, --lineend=linux, -z2, --lineend=macold, -z3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Force use of the specified line end style. Valid options are windows (CRLF), linux (LF), and macold (CR).&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--options=</key>
+            <key>options=</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--options=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Specify an options file #### to read and use.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--options=none</key>
+            <key>options=none</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--options=none&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Disable the default options file. Only the command-line parameters will be used.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--ascii</key>
+            <key>ascii</key>
+            <key>-I</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--ascii, -I&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The displayed output will be ascii characters only.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--version</key>
+            <key>version</key>
+            <key>-V</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--version, -V&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Print version number.&lt;/p&gt;</doc>
+    </entry>
+    <entry>
+        <keys>
+            <key>--help</key>
+            <key>help</key>
+            <key>-h</key>
+            <key>-?</key>
+        </keys>
+        <doc>&lt;p&gt;&lt;span class=&quot;option&quot;&gt;--help, -h, -?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Print this help message.&lt;/p&gt;</doc>
+    </entry>
+</beautifier_documentation>
