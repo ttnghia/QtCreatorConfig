@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Written on Fri Jun 28 13:30:33 2019 by Qt Creator 4.10.0-beta2 (4.9.83)-->
+<externaltool id="notepad">
+    <description>Opens the current file in Notepad++</description>
+    <displayname>Edit with Notepad</displayname>
+    <category>Text</category>
+    <executable output="showinpane" error="showinpane" modifiesdocument="no">
+        <path>C:/Program Files (x86)/Notepad++/notepad++.exe</path>
+        <arguments>&quot;%{CurrentDocument:FilePath}&quot;</arguments>
+        <workingdirectory>%{CurrentDocument:Path}</workingdirectory>
+    </executable>
+</externaltool>

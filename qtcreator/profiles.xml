@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProfiles>
-<!-- Written by QtCreator 4.9.1, 2019-06-06T17:03:50. -->
+<!-- Written by QtCreator 4.9.83, 2019-08-02T14:29:59. -->
 <qtcreator>
+ <data>
+  <variable>Kit.IrrelevantAspects</variable>
+  <valuelist type="QVariantList"/>
+ </data>
  <data>
   <variable>Profile.0</variable>
   <valuemap type="QVariantMap">
-   <value type="bool" key="PE.Profile.AutoDetected">true</value>
+   <value type="bool" key="PE.Profile.AutoDetected">false</value>
    <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
    <valuemap type="QVariantMap" key="PE.Profile.Data">
-    <value type="QString" key="Android.GdbServer.Information"></value>
     <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
      <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
      <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
@@ -22,31 +25,22 @@
      <value type="QString" key="Toolset"></value>
     </valuemap>
     <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{420d571c-7c02-4bfb-b385-295c1bbd54b2}</value>
+    <value type="QString" key="Debugger.Information">{0fc37035-bf63-4c00-a504-e218d6fb9432}</value>
     <value type="QString" key="PE.Profile.Device">Desktop Device</value>
-    <value type="QString" key="PE.Profile.DeviceType">Desktop</value>
-    <valuelist type="QVariantList" key="PE.Profile.Environment"/>
-    <value type="QString" key="PE.Profile.SysRoot"></value>
-    <valuemap type="QVariantMap" key="PE.Profile.ToolChains">
-     <value type="QString" key="C">x86-windows-msvc2017-pe-64bit</value>
-     <value type="QString" key="Cxx">x86-windows-msvc2017-pe-64bit</value>
-    </valuemap>
+    <value type="QByteArray" key="PE.Profile.DeviceType">Desktop</value>
     <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
      <value type="QByteArray" key="C">{30ebc173-12fe-4ca0-b587-079caa242f59}</value>
      <value type="QByteArray" key="Cxx">{3d3b2887-9fd6-483f-a2a5-f86fe66b5d52}</value>
     </valuemap>
-    <value type="QString" key="Qbs.KitInformation"></value>
-    <value type="QString" key="QtPM4.mkSpecInformation"></value>
-    <value type="QString" key="QtSupport.QtInformation">SDK.qt.qt5.5123.win64_msvc2017_64</value>
+    <value type="int" key="QtSupport.QtInformation">3</value>
    </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
    <value type="QString" key="PE.Profile.Icon"></value>
-   <value type="QString" key="PE.Profile.Id">qt.qt5.5123.win64_msvc2017_64_kit</value>
+   <value type="QString" key="PE.Profile.Id">{50f858e0-17ab-4df4-bf14-b22f00bb55ab}</value>
    <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
-   <value type="QString" key="PE.Profile.Name">Desktop Qt %{Qt:Version} MSVC2017 64bit</value>
-   <value type="bool" key="PE.Profile.SDK">true</value>
-   <valuelist type="QVariantList" key="PE.Profile.StickyInfo">
-    <value type="QString">QtSupport.QtInformation</value>
-    <value type="QString">PE.Profile.DeviceType</value>
-   </valuelist>
+   <value type="QString" key="PE.Profile.Name">Desktop (x86-windows-msvc2013-pe-64bit)</value>
+   <value type="bool" key="PE.Profile.SDK">false</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo"/>
   </valuemap>
  </data>
  <data>
@@ -55,7 +49,7 @@
  </data>
  <data>
   <variable>Profile.Default</variable>
-  <value type="QString">qt.qt5.5123.win64_msvc2017_64_kit</value>
+  <value type="QString">{50f858e0-17ab-4df4-bf14-b22f00bb55ab}</value>
  </data>
  <data>
   <variable>Version</variable>
